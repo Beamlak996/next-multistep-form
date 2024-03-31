@@ -49,9 +49,9 @@ export function Form() {
 
   const next = async () => {
     const fields = steps[currentStep].fields;
-    const output = await trigger(fields as FieldName[], { shouldFocus: true });
+    // const output = await trigger(fields as FieldName[], { shouldFocus: true });
 
-    if (!output) return;
+    // if (!output) return;
 
     if (currentStep < steps.length - 1) {
       if (currentStep === steps.length - 2) {
