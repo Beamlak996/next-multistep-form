@@ -1,11 +1,10 @@
-import { MultistepForm } from "@/components/multistep-form";
-import Image from "next/image";
+import { Form } from "@/components/multistep-form";
 
 export default function Home() {
   return (
     <section className="py-24">
       <div className="container">
-        <MultistepForm />
+        <Form />
       </div>
     </section>
   );

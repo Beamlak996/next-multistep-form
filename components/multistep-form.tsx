@@ -24,7 +24,7 @@ const steps = [
   { id: "Step 3", name: "Complete" },
 ];
 
-export default function Form() {
+export function Form() {
   const [previousStep, setPreviousStep] = useState(0);
   const [currentStep, setCurrentStep] = useState(0);
   const delta = currentStep - previousStep;
